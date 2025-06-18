@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table properties</title>
+    <style>
+       table, th,td{
+            border: 3px solid pink;
+           /* outline: 3px skyblue dotted; */
+           border-spacing: 10px 5px;
+           vertical-align: bottom;
+        }
+        th,td{
+            font-size: 30px;
+          /*  border-collapse: collapse; */
+          width: 10%; 
+           height: 10px; 
+           padding: 20px;
+           text-align: justify; 
+        }
+
+        td:hover{
+            background-color: aqua;
+        }
+        
+        tr:nth-child(even){
+            background-color: rgb(233, 106, 127);
+        }
+        caption{
+            caption-side: top;
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!--table>thead>tr>th*3-->
+    <table>
+        <caption>Student Records</caption>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <!--shortcut tbody>(tr>td*3)*3 -->
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Prachi</td>
+                <td>abc@gmail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Archana</td>
+                <td>xy@gmail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Shikha</td>
+                <td>shikhaagsfsjavaskadfgnlehfhhahjaefhqhffrwnvwervwehvewrhr@gmail.com</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Eshika</td>
+                <td>yes@gmail.com</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Muskan</td>
+                <td>Muskan@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
