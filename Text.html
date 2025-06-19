@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text property</title>
+    <style>
+      body{
+        background-image: url(images.png);
+        background-size: cover;
+        background-position: center;
+        
+      }
+       h1{
+        font-size: 30px;
+        text-decoration: overline;
+        text-shadow: 2px 2px 5px lightcoral;
+       }
+
+       h3{
+        font-style: italic;
+        color: cadetblue;
+        font-size: 20px;
+        text-decoration: underline;
+       }
+       ul{
+          font-style: italic;
+          font-size: 20px;
+       }
+      p{
+        color: deeppink;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: overline;
+        text-indent: -10px;
+      }
+
+      h2{
+        direction: rtl; /*urdy right to left*/
+        text-decoration: line-through;
+      }
+       
+      .one{
+        text-align: justify;
+        font-size: 20px;
+        letter-spacing: 2px;
+        line-height: 20px;
+        text-align-last: left;
+      
+      }
+
+      B{
+       text-shadow: 2px 2px 5px palevioletred , 5px 5px 8px red;
+       font-size: 30px;
+       text-transform: lowercase;
+      }
+      .container{
+                    width: 200px;
+            white-space: nowrap; /* Prevents text wrapping */
+            overflow: hidden; /* Hides overflow */
+            text-overflow: ellipsis; /* Adds ellipsis when the text overflows */
+            border: 2px solid #000;
+         }
+    </style>
+</head>
+<body>
+    <h1>Text</h1>
+    <h3>Text Properties provides various text formatting options. </h3>
+    <ul>
+  <li>color</li>
+<li>direction</li>
+<li>text-align</li>
+<li>letter-spacing</li>
+<li>line-height</li>
+<li>text-decoration</li>
+<li>text-indent</li>
+<li>text-shadow</li>
+<li>iext-transform</li>
+<li>white-space</li>
+<li>word-spacing</li>
+</ul>
+<hr>
+
+<p>Color property set the color of text. We can set this property to either a color name or color value.
+Color name – red, green, blue etc
+Color value </p>
+<hr>
+
+<h2>It specifies the text direction. We can set this property to either ltr (left to right) or rtl (right to left). 
+h1{direction: rtl;}
+</h2> <hr>
+
+<div class="one">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore exercitationem explicabo inventore, veniam accusamus cum et ea maxime sequi ad corrupti? Expedita eaque esse dolorum obcaecati quisquam deleniti velit deserunt.
+    Id adipisci animi nesciunt, laborum recusandae exercitationem doloremque illum cumque odio aut error eos? Quisquam nihil sed debitis culpa, possimus architecto pariatur aspernatur ipsa, laboriosam ea animi natus maiores. Suscipit?
+    Doloribus quia non vero officia cum, facilis provident est asperiores dolor nulla magni earum, at delectus ut eos ea debitis quidem nostrum id impedit laudantium ratione? Ipsa voluptatibus quisquam architecto.
+    Nisi, harum nostrum earum a mollitia rerum corrupti, sequi necessitatibus eaque, quidem beatae eos ratione veniam sed modi! Pariatur repudiandae eaque natus, sit in similique totam numquam inventore mollitia! Magnam!
+    Modi placeat repudiandae eligendi hic a impedit excepturi neque ipsam! Vitae deserunt ratione culpa architecto necessitatibus optio cum ut saepe assumenda soluta! Deserunt incidunt enim facere quia dolores repudiandae sapiente?
+</div>
+<hr>
+<B>PRACHIII JASWAL.</B>
+<hr>
+    <div class="container">
+        This is a long text that will be truncated with ellipsis when it overflows.
+    </div>
+
+</body>
+</html>
