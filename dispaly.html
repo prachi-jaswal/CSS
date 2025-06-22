@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        a{ 
+          /*  display: inline; */
+            width: 50px; /*inline me height aur width nhi lagti */
+            padding: 10px;
+            background-color: cadetblue;
+            visibility: hidden; /* content hidden but space remain same */
+            display: none; /* element doest not exist*/
+         }
+
+         h1{
+         /*   display: block; */
+            background-color: aqua;
+            width: 100px;
+            padding: 20px;
+            margin: 40px;
+           display: inline-block; /* height , width, margin , padding set kr saktai hai */
+         } 
+
+        /* div{
+           display: list-item; 
+            margin: 100px;
+            list-style-type: square;
+         } */
+
+        /* Flex Property */
+         .outer{
+            background-color: chartreuse;
+            display: flex; /* inline me kaam krta hai*/
+            gap: 10px; 
+            flex-direction: row;
+            height: 50vh;
+          /*  justify-content: space-around;*/ /*justify content horizontally manage */
+         /* justify-content: center; */  /* justify content vertically manage */
+          align-items:end;* /*align-item  vertically manage */
+        
+         }
+
+         .inner{
+            background-color: chocolate;
+            width: 100px;
+            min-width: 30px;
+            height: 100px;
+            margin-bottom: 3px;
+            color: antiquewhite;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="" >click </a>
+      <a href="" >click </a>
+      <h1>Prachi </h1>
+       <h1>Prachi </h1>
+
+     <!--  <div>
+        <div id="1">div1</div>
+         <div id="2">div2</div>
+          <div id="3">div3</div>
+       </div> -->
+
+       <div class="outer">
+           <div class="inner">1</div>
+             <div class="inner">2</div>
+                <div class="inner">3</div>
+                 <div class="inner">4</div>
+                     <div class="inner">1</div>
+             <div class="inner">2</div>
+                <div class="inner">3</div>
+                 <div class="inner">4
+
+          </div>
+      
+        </div>
+</body> 
+</html>
