@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posititon </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+       div {
+            padding: 30px;
+            background-color: black;
+             height: 300px;
+            width: 300px;
+        } 
+       
+        
+        input{
+            padding: 10px;
+            letter-spacing: 3px;
+             } 
+        
+        .container{
+        position: relative;
+        }
+
+
+        .fa-magnifying-glass{
+            position:absolute;
+            left: 180px;
+            top: 40px;
+            
+             color: palevioletred;
+             font-size: 20px;
+        } 
+
+
+       /* div{
+            border: 2px solid black;
+            height: 300px;
+            width: 300px;
+         /*   text-align: center; 
+        }  */
+
+        .box4{
+            position: relative;
+        }
+
+        h1{
+            background-color: aqua;
+            position: absolute;
+            top:0px;
+        } 
+
+       .box1{ 
+            /*noraml flow of document*/
+            position: static; /*default value*/ /*left right bottom top property not applicable */
+            background-color: pink;
+            color: black;
+            font-size: 50px;
+        }
+ 
+        .box2{
+            position: absolute;
+            right: 100px;
+            /*noraml flow of document not change*/
+            position: relative;
+            left: 500px; 
+             background-color: lightblue;
+            color: black;
+            font-size: 50px;
+            }
+
+        .box3{
+            /*normal flow of documnet is not remember*/
+           position: absolute; 
+           background-color: aqua;
+           bottom: 10px;
+        } 
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <input type="search" placeholder="search here"  >
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    </div> 
+    <br>
+
+   <div class="box1">1</div>
+    <div class="box2">2</div>
+        <div class="box3">3</div> 
+
+        <div class="box4">
+            <h1>Prachi</h1>
+        </div> 
+
+</body>
+</html>
