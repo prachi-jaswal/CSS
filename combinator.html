@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Descendant Selector : div kai child ko target karegy with space dekar */
+        /*div p {
+            color: pink;
+        } */
+
+       /* div h1 p{
+          color: aqua;
+        } */
+
+        /* , seperate seprate hoga */
+      /*  div,p{
+            color: coral;
+        } */
+
+
+        /*Child selector : direct child ko selcect krna */
+        /*div>p{
+            color: yellow;
+        } */
+
+        /*div * */
+        div ,*{
+            color :rgb(203, 57, 57);
+        }
+        
+        /*General selector*/
+        p ~ h1{
+            color: plum;
+        }
+
+        /*Adjacent : immediate ko target karo*/
+        p + h1{
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Aptron</h1>
+    <p>Muskan</p>
+    <h1>Prachi
+        <h1>Prachi</h1>
+    <p>inside h1</p>
+    </h1>
+    <p>Mercy</p>
+    <p>Eshika</p>
+    </div>
+
+    <p>Archana</p>
+    <h1>Shikha</h1>
+</body>
+</html>
